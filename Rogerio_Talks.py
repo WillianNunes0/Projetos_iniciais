@@ -39,8 +39,11 @@ elif horas_int == 12:
     print('que legal ,já pode almossar ? ')
     time.sleep(1)
     ralmossar = input('"Sim ou não" ')
-    if ralmossar in ['S', 'sim', 's', 'já', 'ja', 'claro' ,'pode']:
+    if ralmossar in ['Sim', 'S', 'sim', 's', 'já', 'ja', 'claro' ,'pode']:
+        time.sleep(1)
         print('obrigado :)')
+        time.sleep(1)
+        print('"O bebâbo vai embora"')
     else :
         time.sleep(1)
         print('"O bebâdo joga uma marmitex em sua cara ,você se engasga com os restos e morre"')
