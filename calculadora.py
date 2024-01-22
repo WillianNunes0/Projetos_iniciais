@@ -1,4 +1,4 @@
-# Calculadora
+# Calculadora - Simples
 
 while True :
     
@@ -32,7 +32,7 @@ while True :
         print('Porfavor digite um operador válido')
         continue
 
-    # Contas
+    # Operações
     
     if operador == '-':
         print(f'O valor de {n1_float} - {n2_float} é: {n1_float - n2_float}')
@@ -40,7 +40,7 @@ while True :
         print(f'O valor de {n1_float} + {n2_float} é: {n1_float + n2_float}')
     elif operador == '/':
         try:
-            print(f'O valor de {n1_float} / {n2_float} é: {n1_float / n2_float}')
+            print(f'O valor de {n1_float} ÷ {n2_float} é: {n1_float / n2_float}')
         except:
             print('não existe divisão por 0')
             continue
