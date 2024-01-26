@@ -25,14 +25,14 @@ except:
     time.sleep(1)
     print('Desculpe ,suas palavras fogem do meu entendimento "use numeros inteiros ex:12"')
     time.sleep(1)
-    print('"O bebâbo vai embora"')
+    print('"O bebâdo vai embora"')
     exit()
 
 # Manhã
 if inicio_manha<=horas_int<=termino_manha:
     print(f'bom dia {nome}')
     time.sleep(1)
-    print('"O bebâbo vai embora"')
+    print('"O bebâdo vai embora"')
 # Meio-Dia
 elif horas_int == 12:
     time.sleep(0.5)
@@ -43,7 +43,7 @@ elif horas_int == 12:
         time.sleep(1)
         print('obrigado :)')
         time.sleep(1)
-        print('"O bebâbo vai embora"')
+        print('"O bebâdo vai embora"')
     else :
         time.sleep(1)
         print('"O bebâdo joga uma marmitex em sua cara ,você se engasga com os restos e morre"')
@@ -52,12 +52,12 @@ elif inicio_tarde<=horas_int<=termino_tarde:
     time.sleep(1)
     print(f'boa tarde {nome}')
     time.sleep(1)
-    print('"O bebâbo vai embora"')
+    print('"O bebâdo vai embora"')
 # Noite
 elif inicio_noite<=horas_int<=termino_noite:
     print(f'boa noite {nome}')
     time.sleep(1)
-    print('"O bebâbo vai embora"')
+    print('"O bebâdo vai embora"')
 # Madruga
 elif inicio_madruga<=horas_int<=termino_madruga:
     time.sleep(1)
