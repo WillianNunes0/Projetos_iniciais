@@ -1,12 +1,16 @@
 # Calculadora - Simples
 
+import os
+print('Bem vindo a calculadora')
+
 while True :
     
+
     # Input do usuario
     
     numero1 =  input ('Digite um número: ')
     numero2 =  input ('Digite outro número: ')
-    operador = input ('Digite um operador apenas->(+-/*) : ')
+    operador = input ('Digite um operador apenas(+-/*) : ')
 
     # Checando se o Numero é válido
     
@@ -35,24 +39,29 @@ while True :
     # Operações
     
     if operador == '-':
+        os.system('cls')
         print(f'O valor de {n1_float} - {n2_float} é: {n1_float - n2_float}')
     elif operador == '+':
+        os.system('cls')
         print(f'O valor de {n1_float} + {n2_float} é: {n1_float + n2_float}')
     elif operador == '/':
         try:
+            os.system('cls')
             print(f'O valor de {n1_float} ÷ {n2_float} é: {n1_float / n2_float}')
         except:
+            os.system('cls')
             print('não existe divisão por 0')
             continue
     elif operador == '*':
+        os.system('cls')
         print(f'O valor de {n1_float} * {n2_float} é: {n1_float * n2_float}')
 
     # Sair da calculadora
     
-    sair = input('deseja sair da calculadora ? ')
+    sair = input('deseja fechar a calculadora ? ')
     sair = sair.lower()
     sair = sair.startswith('s')
     if sair:
          break  
 
-print('você saiu')
+print('você fechou a calculadora')
